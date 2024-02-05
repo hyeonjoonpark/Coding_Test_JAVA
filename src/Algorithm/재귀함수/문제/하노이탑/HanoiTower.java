@@ -9,7 +9,7 @@ public class HanoiTower {
     if(n == 1) {
       System.out.println(a + "에서 " + c + "로 이동");
     } else {
-      move(n-1, a, c, b);  // 첫 번째 단계: n-1개의 원판을 a에서 b로 이동(c를 보조로 사용)
+      move(n-1, a, c, b);  // 첫 번째 단계: n-1개의 원판을 a에서 b로 이동(c를 보조로 사용).
       System.out.println(a + "에서 " + c + "로 이동");  // 두 번째 단계: 가장 큰 원판을 a에서 c로 이동.
       move(n-1, b, a, c);  // 세 번째 단계: n-1개의 원판을 b에서 c로 이동(a를 보조로 사용)
     }
