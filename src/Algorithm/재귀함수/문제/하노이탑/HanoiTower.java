@@ -16,8 +16,9 @@ public class HanoiTower {
   }
 
   public static void main(String[] args) {
-    int n; // 원판의 갯수
     Scanner sc = new Scanner(System.in);
+
+    int n; // 원판의 갯수
     n = sc.nextInt();
 
     move(n, 'A', 'B', 'C');
