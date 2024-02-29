@@ -42,4 +42,3 @@ public class 스택 {
 - `stack.contains(value)` : stack이 값을 포함하고 있는지
   - 들어있으면 true
   - 없으면 false
--
