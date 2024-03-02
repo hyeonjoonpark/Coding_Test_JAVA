@@ -36,9 +36,10 @@ public class BinarySearch {
 
     Arrays.sort(array); // BinarySearch는 무조건 정렬되어있어야 함
 
-    int result = binarySearch(array, key);
+//    int result = binarySearch(array, key);
+    int result = Arrays.binarySearch(array, key);
 
-    if (result == -1) {
+    if (result < 0) {
       System.out.println("찾는 값이 존재하지 않습니다");
     } else {
       System.out.println(result); // 찾는 값의 인덱스 출력
