@@ -1,4 +1,4 @@
-package Algorithm.재귀함수.문제.하노이탑;
+package Algorithm.문제.하노이탑;
 
 import java.util.Scanner;
 

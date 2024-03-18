@@ -1,4 +1,4 @@
-package Algorithm.재귀함수.문제.N의K제곱;
+package Algorithm.문제.N의K제곱;
 
 import java.util.Scanner;
 
